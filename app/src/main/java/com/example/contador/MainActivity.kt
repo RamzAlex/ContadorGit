@@ -15,6 +15,7 @@ class MainActivity : AppCompatActivity() {
         contador++
         TvContador.text="$contador"
         //hola
+        //hola2
     }
     BtnDecrementar.setOnClickListener {
         contador--
