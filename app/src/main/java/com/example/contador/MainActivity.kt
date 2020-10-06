@@ -3,7 +3,6 @@ package com.example.contador
 import android.content.Intent
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
-import android.util.Log
 import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
@@ -27,7 +26,7 @@ class MainActivity : AppCompatActivity() {
             contador=0
             TvContador.text="$contador"
         }
-        button.setOnClickListener {
+        Ventana2.setOnClickListener {
             val intent = Intent(this,  SegundaActivity::class.java)
             startActivity(intent)
 
