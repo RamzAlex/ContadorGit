@@ -12,6 +12,7 @@ class SegundaActivity : AppCompatActivity() {
         tvVolver.setOnClickListener {
             val intentVolver = Intent(this,MainActivity::class.java)
             startActivity(intentVolver)
+            //hola
         }
     }
 }
